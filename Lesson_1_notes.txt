@@ -13,3 +13,13 @@ lconsidine ~ $ git config --global push.default upstream
 lconsidine ~ $ git config --global merge.conflictstyle diff3
 
 That is because git diff considers the first argument as the "original", and the second argument as the "new" version, so additions are lines present in the second argument but not the first.
+
+git init
+git status
+git add file_name.ext
+git status
+
+
+git add
+git status
+git commit
