@@ -1,0 +1,15 @@
+git clone REPOSITORY_URL
+git config --global config.ui auto
+git checkout ID (restores all files to state at commit)
+
+HEAD is the commit you are currently working on and you've detached from it because you checkout another commit
+
+lconsidine ~ $ git config --global core.editor "'C:\Program Files (x86)\Notepad
+++\notepad++.exe' -n -w"
+
+http://stackoverflow.com/questions/15298732/invoking-notepad-from-git-bash
+
+lconsidine ~ $ git config --global push.default upstream
+lconsidine ~ $ git config --global merge.conflictstyle diff3
+
+That is because git diff considers the first argument as the "original", and the second argument as the "new" version, so additions are lines present in the second argument but not the first.
