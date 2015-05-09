@@ -23,3 +23,11 @@ git status
 git add
 git status
 git commit
+
+git diff (with no arguments)
+shows the difference between working directory and the staging area
+
+git diff --staged
+shows changes between last commit and staging area
+
+git reset --hard
