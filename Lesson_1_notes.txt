@@ -31,3 +31,9 @@ git diff --staged
 shows changes between last commit and staging area
 
 git reset --hard
+
+git branch (shows branch)
+git branch _name_new_branch_
+git checkout _check_out_branch_
+
+
